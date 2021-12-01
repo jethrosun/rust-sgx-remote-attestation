@@ -13,7 +13,7 @@ base64 = "0.11"
 byteorder = "1.2.1"
 
 [target.'cfg(target_env = "sgx")'.dependencies]
-mbedtls = { git = "https://github.com/jethrosun/rust-mbedtls.git", branch = "dev", default-features = false, features = ["sgx"] }
+mbedtls = { git = "https://github.com/jethrosun/rust-mbedtls.git", branch = "ra", default-features = false, features = ["sgx"] }
 
 [target.'cfg(not(target_env = "sgx"))'.dependencies]
-mbedtls = { git = "https://github.com/jethrosun/rust-mbedtls.git", branch = "dev" } 
+mbedtls = { git = "https://github.com/jethrosun/rust-mbedtls.git", branch = "ra" } 

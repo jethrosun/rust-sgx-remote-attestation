@@ -8,8 +8,10 @@ TARGET_SGX=$TARGET_DIR/$TARGET_NAME.sgxs
 TARGET_SIG=$TARGET_DIR/$TARGET_NAME.sig
 KEY=ra-enclave/examples/data/vendor-keys/private_key.pem
 
-#rustup target add x86_64-fortanix-unknown-sgx --toolchain $NIGHTLY
+rustup target add x86_64-fortanix-unknown-sgx --toolchain $NIGHTLY
 #cargo +$NIGHTLY install fortanix-sgx-tools sgxs-tools
+
+cp ~/sgx_keys/*  ra-sp/examples/data
 
 
 # Build and sign enclave
