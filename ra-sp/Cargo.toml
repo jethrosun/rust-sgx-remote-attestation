@@ -9,7 +9,7 @@ verbose = []
 
 [dependencies]
 bincode = "1.2.1"
-http = "0.2"
+http = "=0.2.1"
 hyper = "0.13"
 hyper-tls = "0.4"
 hex = "0.4"
@@ -24,6 +24,9 @@ sgxs = "0.7.2"
 sgx-isa = "0.3.1"
 sgx-crypto = { path = "../sgx-crypto" }
 ra-common = { path = "../ra-common" }
+half = "=1.6"
+bitflags = "=1.2"
+cmake = "=0.1.42"
 
 [[example]]
 name = "tls-sp"

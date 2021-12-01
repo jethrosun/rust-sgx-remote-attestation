@@ -13,6 +13,9 @@ aesm-client = "0.5"
 sgx-isa = "0.3"
 ra-common = { path = "../ra-common" }
 sgx-crypto = { path = "../sgx-crypto" }
+half = "=1.6"
+bitflags = "=1.2"
+cmake = "=0.1.42"
 
 [[example]]
 name = "tls-client"
