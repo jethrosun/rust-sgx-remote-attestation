@@ -1,3 +1,6 @@
+#!/bin/bash
+
+NIGHT=nightly-2021-01-20
 TARGET_NAME=tls-enclave
 TARGET_DIR=ra-enclave/target/x86_64-fortanix-unknown-sgx/debug/examples
 TARGET=$TARGET_DIR/$TARGET_NAME.sgxs
@@ -6,7 +9,7 @@ TARGET=$TARGET_DIR/$TARGET_NAME.sgxs
 ftxsgx-runner --signature coresident $TARGET &
 
 # Run client
-(cd ra-client && cargo run -Zfeatures=itarget --example tls-client --features verbose) &
+(cd ra-client && cargo +$NIGHTLY run -Zfeatures=itarget --example tls-client --features verbose) &
 
 # Run SP
-(cd ra-sp && cargo run -Zfeatures=itarget --example tls-sp --features "verbose")
+(cd ra-sp && cargo +$NIGHTLY run -Zfeatures=itarget --example tls-sp --features "verbose")

@@ -27,6 +27,8 @@ ra-common = { path = "../ra-common" }
 half = "=1.6"
 bitflags = "=1.2"
 cmake = "=0.1.42"
+openssl-sys = "=0.9.58"
+openssl = "=0.10"
 
 [[example]]
 name = "tls-sp"
