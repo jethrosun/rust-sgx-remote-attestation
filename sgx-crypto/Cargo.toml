@@ -8,9 +8,9 @@ edition = "2018"
 default = []
 
 [dependencies]
-regex = "1.3.3"
-base64 = "0.11"
-byteorder = "1.2.1"
+regex = "=1.3.3"
+base64 = "=0.11"
+byteorder = "=1.3.2"
 
 [target.'cfg(target_env = "sgx")'.dependencies]
 mbedtls = { git = "https://github.com/jethrosun/rust-mbedtls.git", branch = "ra", default-features = false, features = ["sgx"] }
