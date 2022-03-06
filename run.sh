@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NIGHTLY=nightly-2021-01-20
+NIGHTLY=nightly-2021-02-20
 TARGET_NAME=tls-enclave
 TARGET_DIR=ra-enclave/target/x86_64-fortanix-unknown-sgx/debug/examples
 TARGET=$TARGET_DIR/$TARGET_NAME.sgxs

@@ -4,6 +4,7 @@ use std::time::Duration;
 
 fn main() {
     let enclave_port = 7777;
+    // SP?
     let sp_port = 1234;
     let localhost = "localhost";
     let timeout = Duration::from_secs(5);
