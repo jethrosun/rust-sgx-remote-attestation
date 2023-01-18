@@ -1,0 +1,339 @@
+
+jethros@tuco ~/dev/rust-sgx-remote-attestation:ra> ./build.sh
+info: component 'rust-std' for target 'x86_64-fortanix-unknown-sgx' is up to date
+    Updating crates.io index
+    Updating git repository `https://github.com/jethrosun/rust-mbedtls.git`
+   Compiling memchr v2.4.1
+   Compiling proc-macro2 v1.0.32
+   Compiling unicode-xid v0.2.2
+   Compiling libc v0.2.108
+   Compiling bitflags v1.2.1
+   Compiling syn v1.0.82
+   Compiling cc v1.0.72
+   Compiling cfg-if v1.0.0
+   Compiling glob v0.3.0
+   Compiling version_check v0.9.3
+   Compiling log v0.4.14
+   Compiling unicode-width v0.1.9
+   Compiling regex-syntax v0.6.25
+   Compiling serde_derive v1.0.130
+   Compiling ansi_term v0.12.1
+   Compiling humantime v2.1.0
+   Compiling vec_map v0.8.2
+   Compiling serde v1.0.130
+   Compiling termcolor v1.1.2
+   Compiling strsim v0.8.0
+   Compiling bindgen v0.58.1
+   Compiling rustc-hash v1.1.0
+   Compiling shlex v1.1.0
+   Compiling lazy_static v1.4.0
+   Compiling lazycell v1.3.0
+   Compiling peeking_take_while v0.1.2
+   Compiling byteorder v1.4.3
+   Compiling serde-big-array v0.2.0
+   Compiling yasna v0.2.2
+   Compiling half v1.6.0
+   Compiling base64 v0.11.0
+   Compiling cmake v0.1.42
+   Compiling rs-libc v0.1.0
+   Compiling mbedtls v0.6.1 (https://github.com/jethrosun/rust-mbedtls.git?branch=ra#8063ec62)
+   Compiling libloading v0.7.2
+   Compiling clang-sys v1.3.0
+   Compiling nom v5.1.2
+   Compiling textwrap v0.11.0
+   Compiling aho-corasick v0.7.18
+   Compiling quote v1.0.10
+   Compiling atty v0.2.14
+   Compiling which v3.1.1
+   Compiling sgx-isa v0.3.3
+   Compiling regex v1.5.4
+   Compiling clap v2.34.0
+   Compiling cexpr v0.4.0
+   Compiling env_logger v0.8.4
+   Compiling mbedtls-sys-auto v2.18.5 (https://github.com/jethrosun/rust-mbedtls.git?branch=ra#8063ec62)
+   Compiling serde_cbor v0.10.2
+   Compiling bincode v1.3.3
+   Compiling sgx-crypto v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/sgx-crypto)
+   Compiling ra-common v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/ra-common)
+   Compiling ra-enclave v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/ra-enclave)
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 27s
+ENCLAVEHASH: 3b752b00dc100f84c577ea7062f0fe08d0a4ce488f874cf31f1c2a466a02501b (OK)
+    Updating crates.io index
+    Updating git repository `https://github.com/jethrosun/rust-mbedtls.git`
+   Compiling libc v0.2.108
+   Compiling cfg-if v1.0.0
+   Compiling proc-macro2 v1.0.32
+   Compiling unicode-xid v0.2.2
+   Compiling memchr v2.4.1
+   Compiling syn v1.0.82
+   Compiling log v0.4.14
+   Compiling cc v1.0.72
+   Compiling bitflags v1.2.1
+   Compiling version_check v0.9.3
+   Compiling glob v0.3.0
+   Compiling regex-syntax v0.6.25
+   Compiling serde_derive v1.0.130
+   Compiling unicode-width v0.1.9
+   Compiling lazy_static v1.4.0
+   Compiling vec_map v0.8.2
+   Compiling strsim v0.8.0
+   Compiling ansi_term v0.12.1
+   Compiling serde v1.0.130
+   Compiling termcolor v1.1.2
+   Compiling bindgen v0.58.1
+   Compiling humantime v2.1.0
+   Compiling peeking_take_while v0.1.2
+   Compiling protobuf v2.25.2
+   Compiling rustc-hash v1.1.0
+   Compiling lazycell v1.3.0
+   Compiling ppv-lite86 v0.2.15
+   Compiling shlex v1.1.0
+   Compiling either v1.6.1
+   Compiling autocfg v1.0.1
+   Compiling byteorder v1.4.3
+   Compiling remove_dir_all v0.5.3
+   Compiling gimli v0.26.1
+   Compiling adler v1.0.2
+   Compiling failure_derive v0.1.8
+   Compiling yasna v0.2.2
+   Compiling rustc-demangle v0.1.21
+   Compiling serde-big-array v0.2.0
+   Compiling base64 v0.11.0
+   Compiling half v1.6.0
+   Compiling libloading v0.7.2
+   Compiling cmake v0.1.42
+   Compiling backtrace v0.3.63
+   Compiling mbedtls v0.6.1 (https://github.com/jethrosun/rust-mbedtls.git?branch=ra#8063ec62)
+   Compiling nom v5.1.2
+   Compiling clang-sys v1.3.0
+   Compiling textwrap v0.11.0
+   Compiling miniz_oxide v0.4.4
+   Compiling addr2line v0.17.0
+   Compiling atty v0.2.14
+   Compiling getrandom v0.2.3
+   Compiling which v3.1.1
+   Compiling which v4.2.2
+   Compiling unix_socket2 v0.5.4
+   Compiling quote v1.0.10
+   Compiling aho-corasick v0.7.18
+   Compiling object v0.27.1
+   Compiling sgx-isa v0.3.3
+   Compiling protobuf-codegen v2.25.2
+   Compiling clap v2.34.0
+   Compiling rand_core v0.6.3
+   Compiling protoc v2.25.2
+   Compiling regex v1.5.4
+   Compiling cexpr v0.4.0
+   Compiling rand_chacha v0.3.1
+   Compiling synstructure v0.12.6
+   Compiling env_logger v0.8.4
+   Compiling rand v0.8.4
+   Compiling tempfile v3.2.0
+   Compiling failure v0.1.8
+   Compiling serde_cbor v0.10.2
+   Compiling bincode v1.3.3
+   Compiling mbedtls-sys-auto v2.18.5 (https://github.com/jethrosun/rust-mbedtls.git?branch=ra#8063ec62)
+   Compiling protoc-rust v2.25.2
+   Compiling aesm-client v0.5.3
+   Compiling sgx-crypto v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/sgx-crypto)
+   Compiling ra-common v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/ra-common)
+   Compiling ra-client v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/ra-client)
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 50s
+    Updating crates.io index
+    Updating git repository `https://github.com/jethrosun/rust-mbedtls.git`
+   Compiling libc v0.2.108
+   Compiling proc-macro2 v1.0.32
+   Compiling unicode-xid v0.2.2
+   Compiling syn v1.0.82
+   Compiling cfg-if v1.0.0
+   Compiling memchr v2.4.1
+   Compiling cc v1.0.72
+   Compiling log v0.4.14
+   Compiling autocfg v1.0.1
+   Compiling lazy_static v1.4.0
+   Compiling bitflags v1.2.1
+   Compiling cfg-if v0.1.10
+   Compiling glob v0.3.0
+   Compiling version_check v0.9.3
+   Compiling serde_derive v1.0.130
+   Compiling futures-core v0.3.18
+   Compiling pkg-config v0.3.22
+   Compiling regex-syntax v0.6.25
+   Compiling serde v1.0.130
+   Compiling unicode-width v0.1.9
+   Compiling bytes v0.5.6
+   Compiling strsim v0.8.0
+   Compiling termcolor v1.1.2
+   Compiling bindgen v0.58.1
+   Compiling slab v0.4.5
+   Compiling humantime v2.1.0
+   Compiling ansi_term v0.12.1
+   Compiling fnv v1.0.7
+   Compiling vec_map v0.8.2
+   Compiling peeking_take_while v0.1.2
+   Compiling shlex v1.1.0
+   Compiling rustc-hash v1.1.0
+   Compiling lazycell v1.3.0
+   Compiling itoa v0.4.8
+   Compiling pin-project-lite v0.2.7
+   Compiling pin-project-lite v0.1.12
+   Compiling futures-task v0.3.18
+   Compiling byteorder v1.4.3
+   Compiling futures-util v0.3.18
+   Compiling openssl v0.10.30
+   Compiling foreign-types-shared v0.1.1
+   Compiling failure_derive v0.1.8
+   Compiling gimli v0.26.1
+   Compiling futures-sink v0.3.18
+   Compiling adler v1.0.2
+   Compiling hashbrown v0.11.2
+   Compiling native-tls v0.2.8
+   Compiling futures-channel v0.3.18
+   Compiling pin-utils v0.1.0
+   Compiling httparse v1.5.1
+   Compiling rustc-demangle v0.1.21
+   Compiling serde-big-array v0.2.0
+   Compiling openssl-probe v0.1.4
+   Compiling try-lock v0.2.3
+   Compiling yasna v0.2.2
+   Compiling ryu v1.0.6
+   Compiling base64 v0.11.0
+   Compiling httpdate v0.3.2
+   Compiling half v1.6.0
+   Compiling tower-service v0.3.1
+   Compiling serde_json v1.0.72
+   Compiling hex v0.4.3
+   Compiling percent-encoding v2.1.0
+   Compiling libloading v0.7.2
+   Compiling cmake v0.1.42
+   Compiling backtrace v0.3.63
+   Compiling mbedtls v0.6.1 (https://github.com/jethrosun/rust-mbedtls.git?branch=ra#8063ec62)
+   Compiling miniz_oxide v0.4.4
+   Compiling indexmap v1.7.0
+   Compiling tracing-core v0.1.21
+   Compiling clang-sys v1.3.0
+   Compiling nom v5.1.2
+   Compiling openssl-sys v0.9.58
+   Compiling textwrap v0.11.0
+   Compiling http v0.2.1
+   Compiling foreign-types v0.3.2
+   Compiling addr2line v0.17.0
+   Compiling http-body v0.3.1
+   Compiling atty v0.2.14
+   Compiling iovec v0.1.4
+   Compiling net2 v0.2.37
+   Compiling which v3.1.1
+   Compiling num_cpus v1.13.0
+   Compiling signal-hook-registry v1.4.0
+   Compiling socket2 v0.3.19
+   Compiling time v0.1.43
+   Compiling quote v1.0.10
+   Compiling aho-corasick v0.7.18
+   Compiling object v0.27.1
+   Compiling tracing v0.1.29
+   Compiling want v0.3.0
+   Compiling sgx-isa v0.3.3
+   Compiling clap v2.34.0
+   Compiling mio v0.6.23
+   Compiling regex v1.5.4
+   Compiling cexpr v0.4.0
+   Compiling mio-uds v0.6.8
+   Compiling synstructure v0.12.6
+   Compiling tokio-macros v0.2.6
+   Compiling pin-project-internal v1.0.8
+   Compiling env_logger v0.8.4
+   Compiling tokio v0.2.25
+   Compiling pin-project v1.0.8
+   Compiling failure v0.1.8
+   Compiling serde_cbor v0.10.2
+   Compiling bincode v1.3.3
+   Compiling tokio-util v0.3.1
+   Compiling tokio-tls v0.3.1
+   Compiling tracing-futures v0.2.5
+   Compiling mbedtls-sys-auto v2.18.5 (https://github.com/jethrosun/rust-mbedtls.git?branch=ra#8063ec62)
+   Compiling sgxs v0.7.2
+   Compiling h2 v0.2.7
+   Compiling hyper v0.13.10
+   Compiling hyper-tls v0.4.3
+   Compiling sgx-crypto v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/sgx-crypto)
+   Compiling ra-common v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/ra-common)
+   Compiling ra-sp v0.1.0 (/home/jethros/dev/rust-sgx-remote-attestation/ra-sp)
+    Finished dev [unoptimized + debuginfo] target(s) in 2m 15s
+jethros@tuco ~/dev/rust-sgx-remote-attestation:ra> ./run.sh
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Finished dev [unoptimized + debuginfo] target(s) in 0.14s
+     Running `target/debug/examples/tls-client`
+Enclave: connected to client.
+Client: connected to enclave.
+    Finished dev [unoptimized + debuginfo] target(s) in 0.19s
+     Running `target/debug/examples/tls-sp`
+Client: connected to SP.
+MSG0 generated
+MSG0 sent
+SP: connected to client.
+==================SP Config==================
+SpConfig {
+    debug: true,
+    linkable: true,
+    random_nonce: false,
+    use_platform_service: false,
+    spid: "F4249E3BD3A17636107D1FFF9C7E3822",
+    primary_subscription_key: "3be4ec2d3ee0425c98734b865840ab30",
+    secondary_subscription_key: "06dc18acb6864188a839004f4a091976",
+    quote_trust_options: [
+        "GROUP_OUT_OF_DATE",
+        "CONFIGURATION_NEEDED",
+    ],
+    pse_trust_options: None,
+    sp_private_key_pem_path: "examples/data/sp-keys/private_key.pem",
+    ias_root_cert_pem_path: "examples/data/Intel_SGX_Attestation_RootCA.pem",
+    sigstruct_path: "../ra-enclave/target/x86_64-fortanix-unknown-sgx/debug/examples/tls-enclave.sig",
+}
+=============================================
+MSG0 received
+MSG1 generated
+MSG1 sent
+MSG1 received
+MSG1 processed
+MSG2 sent
+MSG2 received
+MSG3 generated
+MSG3 sent
+MSG3 received
+==============Attestation Result==============
+AttestationResponse {
+    advisory_url: Some(
+        "https://security-center.intel.com",
+    ),
+    advisory_ids: Some(
+        "INTEL-SA-00477,INTEL-SA-00381,INTEL-SA-00389,INTEL-SA-00320,INTEL-SA-00329,INTEL-SA-00220,INTEL-SA-00270,INTEL-SA-00293,INTEL-SA-00233",
+    ),
+    request_id: "ca060abf87d64741840333cf1c51e459",
+    id: "130231129170394170499886660790080903952",
+    timestamp: "2021-12-01T16:27:46.356207",
+    version: 3,
+    isv_enclave_quote_status: "GROUP_OUT_OF_DATE",
+    isv_enclave_quote_body: "AgABADULAAAMAAsAAAAAAPQknjvToXY2EH0f/5x+OCIAAAAAAAAAAAAAAAAAAAAABQ4CBAH/AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAHAAAAAAAAADt1KwDcEA+ExXfqcGLw/gjQpM5Ij4dM8x8cKkZqAlAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAArnBPE60MTLonxO3neCrIVXXlKIAM/c6S7GoyCX3eErQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACWVnewAFKVlBRaUNXxgEaqXDx8u6qu1s0Oe5GzFVwFygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+    revocation_reason: None,
+    pse_manifest_status: None,
+    pse_manifest_hash: None,
+    platform_info_blob: Some(
+        "150200650400010000111102040180070000000000000000000C00000C000000020000000000000B35AEA906D8582EA38B3078DF41C42821D430612D1F0E19A6972D1E98BB2A9FA8876D0D397A007C57E382E770EFB25AF0C383F763AC964033B99D1ED5017FEAB75D",
+    ),
+    nonce: None,
+    epid_pseudonym: Some(
+        "Izl4J2cKGwed6iQe3xk11QhXC8avMrUfy+gzBafTheAu5Fq0kHROObRnrY3FIf3e79pPmowp/icIuVlPQtosDdOF+oyF6TDitbv7eh7hwrUurL0tERTbmboYN+yw99Kdub8wDD6a0cmnFk2NnkxU4h5fyCLRPp5A5P4CIBmiESQ=",
+    ),
+}
+==============================================
+WARNING: Enclave is running in debug mode. Do not trust this enclave in production.
+MSG4 generated
+MSG4 received
+Client: done!
+MSG4 sent
+Enclave: done!
+SP: message from Enclave = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non placerat risus, et lobortis quam. Mauris velit lorem, elementum id neque a, aliquet tempus turpis. Nam eu congue urna, in semper quam. Ut tristique gravida nunc nec feugiat. Proin tincidunt massa a arcu volutpat, sagittis dignissim velit convallis. Cras ac finibus lorem, nec congue felis. Pellentesque fermentum vitae ipsum sed gravida. Nulla consectetur sit amet erat a pellentesque. Donec non velit sem. Sed eu metus felis. Nullam efficitur consequat ante, ut commodo nisi pharetra consequat. Ut accumsan eget ligula laoreet dictum. Maecenas tristique porta convallis. Suspendisse tempor sodales velit, ac luctus urna varius eu. Ut ultrices urna vestibulum vestibulum euismod. Vivamus eu sapien urna."
+SP: done!
+jethros@tuco ~/dev/rust-sgx-remote-attestation:ra>
+
